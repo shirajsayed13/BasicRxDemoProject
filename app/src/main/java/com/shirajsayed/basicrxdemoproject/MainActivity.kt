@@ -20,5 +20,23 @@ class MainActivity : AppCompatActivity() {
                 .newInstance()
                 .show(supportFragmentManager, "RxKotlinBasic")
         }
+
+        operatorButton.setOnClickListener {
+            OperatorDialogFragment
+                .newInstance()
+                .show(supportFragmentManager, "Operator")
+        }
+
+        compositeDisposableButton.setOnClickListener {
+            CompositeDisposableDialogFragment
+                .newInstance()
+                .show(supportFragmentManager, "CompositeDisposable")
+        }
+
+        customDataButton.setOnClickListener {
+            CustomDataDialogFragment
+                .newInstance()
+                .show(supportFragmentManager, "CustomData")
+        }
     }
 }

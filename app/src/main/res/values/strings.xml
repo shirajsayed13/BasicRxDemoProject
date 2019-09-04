@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BasicRxDemoProject</string>
+    <string name="rx_java_basic_demo">Rx java basic demo</string>
+    <string name="rx_kotlin_basic_demo">Rx kotlin basic demo</string>
+    <string name="operator">Operator</string>
+    <string name="composite_disposable">composite disposable</string>
+    <string name="custom_data">custom data</string>
 </resources>
